@@ -494,4 +494,8 @@ footer div {
     .formulaire {
         justify-content: center;
     }
+
+    footer {
+        padding: auto;
+    }
 }
