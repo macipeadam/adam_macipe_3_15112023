@@ -264,9 +264,13 @@ nav li:hover a {
     border-top-left-radius: 15px;
     object-fit: cover;
 }
+.container_hebergement_cards .container p {
+    margin-bottom: 3px;
+}
 
 .container_hebergement_cards .card h4 {
     white-space: nowrap;
+    margin: 1px 0px 11px 0px;
 }
 
 .container_hebergement_cards .card {
@@ -393,11 +397,19 @@ footer a {
     }
     .filtres {
         flex-direction: column;
+        align-items: flex-start;
     }
     .hebergements-and-populaires {
         flex-direction: column;
     }
-
+    .button-filtres {
+        justify-content: flex-start;
+        width: 100%;
+        gap: 20px;
+    }
+    .filtre {
+        margin: 0;
+    }
     .hebergements {
         width: 100%;
     }
